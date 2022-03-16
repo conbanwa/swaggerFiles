@@ -99,7 +99,7 @@ export class OperationLink extends React.Component {
     return (
       <Link href={ href } onClick={this.onClick} className={`block opblock-link ${shown ? "shown" : ""}`}>
         <div>
-          <small className={`bold-label-${method}`}>{method.toUpperCase()}</small>
+          <small className={`bold-label-${method}`}>{method.toUpperCase().replace('PATCH','WS')}</small>
           <span className="bold-label" >{id}</span>
         </div>
       </Link>
