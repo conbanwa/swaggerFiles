@@ -147,7 +147,7 @@ export default class Topbar extends React.Component {
 
     return (
       <div className="topbar">
-        <div className="wrapper">
+        {/* <div className="wrapper">
           <div className="topbar-wrapper">
             <Link>
               <img height="40" src={ Logo } alt="Swagger UI"/>
@@ -156,7 +156,7 @@ export default class Topbar extends React.Component {
               {control.map((el, i) => cloneElement(el, { key: i }))}
             </form>
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
